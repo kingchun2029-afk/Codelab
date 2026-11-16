@@ -1,0 +1,12 @@
+# 构建产物（里面有本机签名、DerivedData、几百个缓存，绝不能进仓库）
+build/
+DerivedData/
+*.xcarchive
+
+# Xcode 的个人设置
+xcuserdata/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
+# macOS
+.DS_Store
